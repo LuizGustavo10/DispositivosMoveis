@@ -1,0 +1,18 @@
+h1{
+color:red;
+}
+#disciplina{
+  color: blue;
+}
+#teste{
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+table, th, td {
+border: 1px solid black;
+width: 100%;
+margin-bottom : .5em;
+table-layout: fixed;
+text-align: center;
+}
