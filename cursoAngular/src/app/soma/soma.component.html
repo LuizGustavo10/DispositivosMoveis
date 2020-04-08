@@ -1,0 +1,57 @@
+<div class="container-fluid">
+    <div>
+        <h3>Estruturas de decisão com form</h3>
+    </div>
+   
+   
+    <form class="m-5">
+        <div class="row">
+
+            <div class=" form-group">
+                <input class="form-control" type="number" name="numero1" value="" [(ngModel)]="numero1">  
+            </div>
+            <div class=" form-group">
+                <input class="form-control" type="number" name="numero2" value="" [(ngModel)]="numero2">
+            </div>
+            <div class=" form-group">
+                <button class="btn btn-primary btn-md" type="button" name="button" (click)="somar()">somar</button>
+            </div>
+
+        </div>
+    </form>
+
+    <!-- estrutura de decisão para par-->
+
+    <div class="form-group">
+        <form class="m-5">
+            <div class="row">
+
+                <div class=" form-group">
+                    <input class="form-control" type="number" name="numero3" value="" [(ngModel)]="numero3">
+                </div>
+                <div class=" form-group">
+                    <button class="btn btn-primary btn-md" (click)="par()">Verificar par</button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+
+
+    <!-- estrutura de decisão para positivo-->
+
+    <div class="form-group">
+        <form class="m-5">
+            <div class="row">
+
+                <div class=" form-group">
+                    <input class="form-control" type="number" name="numero4" value="" [(ngModel)]="numero4">
+                </div>
+                <div class=" form-group">
+                    <button class="btn btn-primary btn-md" (click)="positivo()">Verificar positivo</button>
+                </div>
+                
+            </div>
+        </form>
+    </div>
+</div>
